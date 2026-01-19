@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Galina Pass</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+
+  <body class="bg-white text-neutral-900 antialiased selection:bg-black selection:text-white">
+    <main class="min-h-screen">
+      <div class="mx-auto max-w-6xl px-6 sm:px-8">
+        <!-- Header -->
+        <header class="sticky top-0 z-50 -mx-6 sm:-mx-8 border-b border-neutral-200 bg-white/70 backdrop-blur">
+          <div class="mx-auto max-w-6xl px-6 sm:px-8 py-5 flex items-center justify-between">
+            <div class="flex items-baseline gap-3">
+              <span class="inline-flex h-7 w-7 items-center justify-center rounded-full border border-neutral-900 text-xs font-medium tracking-widest">
+                GP
+              </span>
+              <h1 class="text-lg font-semibold tracking-tight">Galina Pass</h1>
+            </div>
+            <nav class="flex items-center gap-5 text-sm">
+              <a class="hover:opacity-70" href="#gallery">Works</a>
+              <a class="hover:opacity-70" href="#talks">Talks</a>
+              <a class="hover:opacity-70" href="#teaching">Teaching</a>
+              <a class="hover:opacity-70" href="#contact">Contact</a>
+              <a
+                class="ml-2 inline-flex items-center gap-2 rounded-full border border-neutral-300 px-3 py-1 hover:bg-neutral-50"
+                href="https://scholar.google.com/citations?user=P_Y2TCQAAAAJ&hl=en"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Google Scholar ↗
+              </a>
+            </nav>
+          </div>
+        </header>
+
+        <!-- Hero -->
+        <section class="flex flex-col items-center justify-center py-16 md:py-24 text-center">
+          <h2 class="text-3xl md:text-5xl font-semibold tracking-tight">
+            Galina Pass
+          </h2>
+          <p class="mt-5 max-w-2xl text-base leading-relaxed text-neutral-600">
+            Postdoctoral researcher at QuSoft &amp; CWI. I study quantum algorithms and
+            complexity, with a focus on quantum walks, recursion, and time–space trade-offs.
+            Previously I was a PhD student at the University of Amsterdam (KdVI &amp; QuSoft)
+            under the supervision of Stacey Jeffery and Michael Walter.
+          </p>
+
+          <div class="mt-8 flex flex-wrap justify-center gap-3 text-sm">
+            <span class="rounded-full border border-neutral-300 px-3 py-1">Quantum Walks</span>
+            <span class="rounded-full border border-neutral-300 px-3 py-1">Quantum Algorithms</span>
+            <span class="rounded-full border border-neutral-300 px-3 py-1">Complexity</span>
+          </div>
+
+          <div class="mt-10">
+            <img
+              src="/IMG_9980.jpg"
+              alt="Galina Pass portrait"
+              class="aspect-[4/5] w-48 md:w-56 mx-auto rounded-2xl border border-neutral-200 object-cover"
+            />
+            <div class="mt-3 text-xs text-neutral-500">
+              Amsterdam, NL · galina.gass@cwi.nl
+            </div>
+          </div>
+        </section>
+
+        <!-- Selected Works -->
+        <section id="gallery" class="py-8 md:py-12">
+          <div class="flex items-baseline justify-between">
+            <h3 class="text-xl md:text-2xl font-semibold tracking-tight">
+              Selected Works
+            </h3>
+            <a
+              class="text-sm hover:opacity-70"
+              href="https://scholar.google.com/citations?user=P_Y2TCQAAAAJ&hl=en"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View all on Scholar ↗
+            </a>
+          </div>
+
+          <ul class="mt-6 space-y-6">
+            <li>
+              <h4 class="font-medium leading-snug">
+                <a
+                  class="underline-offset-2 hover:underline"
+                  href="https://arxiv.org/abs/2401.08355"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Multidimensional Quantum Walks, Recursion, and Quantum Divide &amp; Conquer
+                </a>
+              </h4>
+              <p class="mt-1 text-sm text-neutral-600">
+                Stacey Jeffery, Galina Pass (STACS 2025)
+              </p>
+            </li>
+
+            <li>
+              <h4 class="font-medium leading-snug">
+                <a
+                  class="underline-offset-2 hover:underline"
+                  href="https://arxiv.org/abs/2212.00094"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  (No) Quantum Space-Time Tradeoff for USTCON
+                </a>
+              </h4>
+              <p class="mt-1 text-sm text-neutral-600">
+                Simon Apers, Stacey Jeffery, Galina Pass, Michael Walter (ESA 2023)
+              </p>
+            </li>
+          </ul>
+        </section>
+
+        <!-- Talks -->
+        <section id="talks" class="py-12">
+          <h3 class="text-xl md:text-2xl font-semibold tracking-tight">Talks</h3>
+
+          <div class="mt-6 divide-y divide-neutral-200 border-y border-neutral-200">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-3 py-4">
+              <div class="md:col-span-2 text-sm text-neutral-500">Sep 2023</div>
+              <div class="md:col-span-10">
+                <div class="text-sm uppercase tracking-widest text-neutral-500">
+                  European Symposium on Algorithms (ESA 2023), Amsterdam
+                </div>
+                <div class="font-medium">
+                  <a
+                    class="underline-offset-2 hover:underline"
+                    href="https://arxiv.org/abs/2212.00094"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    (No) Quantum Space-Time Tradeoff for USTCON
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-3 py-4">
+              <div class="md:col-span-2 text-sm text-neutral-500">Jun 2023</div>
+              <div class="md:col-span-10">
+                <div class="text-sm uppercase tracking-widest text-neutral-500">
+                  TQC 2023, Aveiro
+                </div>
+                <div class="font-medium">
+                  <a
+                    class="underline-offset-2 hover:underline"
+                    href="https://arxiv.org/abs/2212.00094"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    (No) Quantum Space-Time Tradeoff for USTCON
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-3 py-4">
+              <div class="md:col-span-2 text-sm text-neutral-500">May 2022</div>
+              <div class="md:col-span-10">
+                <div class="text-sm uppercase tracking-widest text-neutral-500">
+                  YQIT 2022, Paris
+                </div>
+                <div class="font-medium">
+                  Quantum algorithms for graph connectivity
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Teaching -->
+        <section id="teaching" class="py-12">
+          <h3 class="text-xl md:text-2xl font-semibold tracking-tight">Teaching</h3>
+
+          <ul class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <li class="rounded-2xl border border-neutral-200 p-4">
+              <div class="font-medium">Bachelor Thesis Supervision, Quantum Algorithms</div>
+              <div class="mt-1 text-sm text-neutral-500">
+                Jan–Jun 2025 · University of Amsterdam
+              </div>
+            </li>
+            <li class="rounded-2xl border border-neutral-200 p-4">
+              <div class="font-medium">Information Theory</div>
+              <div class="mt-1 text-sm text-neutral-500">
+                Nov 2022 – Jan 2023 · University of Amsterdam
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!-- Footer -->
+        <footer id="contact" class="py-16">
+          <h3 class="text-2xl font-semibold tracking-tight">Let’s talk.</h3>
+          <p class="mt-3 max-w-prose text-neutral-600">
+            For collaborations, talks, or teaching, reach out by email.
+          </p>
+          <div class="mt-6">
+            <a
+              class="inline-flex items-center gap-2 rounded-full border border-neutral-900 px-4 py-2 text-sm hover:bg-neutral-900 hover:text-white transition-colors"
+              href="mailto:galina.gass@cwi.nl"
+            >
+              galina.gass@cwi.nl
+            </a>
+          </div>
+
+          <div class="mt-12 border-t border-neutral-200 pt-6 text-xs text-neutral-500 flex justify-between">
+            <span>© 2026 Galina Pass</span>
+          </div>
+        </footer>
+      </div>
+    </main>
+  </body>
+</html>
